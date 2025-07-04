@@ -82,9 +82,9 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=2201 tools/t
 ```
 
 python -m torch.distributed.launch --nproc_per_node=1 --master_port=1001 ./tools/test.py ./configs/faster_rcnn/faster-rcnn_r101_fpn_2x_seadronesee.py yolov8_s_syncbn_fast_8xb16-500e_seadronessee_saliency_correctgridlarge_2400/epoch_50.pth```
-> replace the checkpoint with the corresponding trained one on the dataset
 
 ```
+> replace the checkpoint with the corresponding trained one on the dataset
 
 ## Acknowledgement
 
